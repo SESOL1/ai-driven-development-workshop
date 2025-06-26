@@ -1,0 +1,36 @@
+{
+  "name": "factory-equipment-manager-frontend",
+  "version": "1.0.0",
+  "description": "工場設備管理アプリのフロントエンド",
+  "main": "src/main.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "npm run serve"
+  },
+  "dependencies": {
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.0",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "@vue/compiler-sfc": "^3.3.0",
+    "vue-loader": "^17.2.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "keywords": [
+    "vue",
+    "factory",
+    "equipment",
+    "management",
+    "azure"
+  ],
+  "author": "Factory Equipment Management Team",
+  "license": "MIT"
+}
